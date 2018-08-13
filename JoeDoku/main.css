@@ -1,0 +1,143 @@
+body {
+    background-color: #000000;
+}
+
+
+h1 {
+
+
+    font-family: 'Slabo 27px';
+    color: #F6BDD8;
+}
+
+.gray{
+    background-color: #1f1b1b;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.image_brainstorm {
+
+    text-align: center;
+
+    height: 600px;
+    width: 600px;
+}
+
+.image_placeholder {
+
+    text-align: center;
+
+    height: 640px;
+    width: 640px;
+}
+
+
+.brain {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.box1 {
+    padding: 20px;
+    text-align: center;
+    max-width: 640px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: #F6BDD8;
+}
+
+
+.box2 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: black;
+    padding: 20px;
+    background-color: #F6BDD8;
+    max-width: 640px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.styletile {
+    display: flex;
+    justify-content: center;
+}
+
+.box3 {
+    margin-top: 2em;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: black;
+    padding: 20px;
+    background-color: #F6BDD8;
+    max-width: 640px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.box4 {
+    flex-direction: column;
+
+}
+
+
+.NABC {
+    display: flex;
+    justify-content: center;
+
+}
+
+.BMC {
+    display: flex;
+    justify-content: center;
+
+}
+
+.XD {
+    display: flex;
+    justify-content: center;
+
+}
+
+a{
+
+
+
+    font-family: 'Slabo 27px';
+    color: #000000;
+
+
+}
+
+.papirprototype {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.storyboard {
+    display: flex;
+    justify-content: center;
+}
+
+
+@font-face {
+font-family: "Sign";
+src: url("SignPainter.tff")
+
+}

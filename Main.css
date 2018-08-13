@@ -1,0 +1,561 @@
+body{
+    font-family: 'Comfortaa', cursive;
+   transition: 1s;
+    margin: auto;
+}
+
+
+
+.color5b{
+
+    background: linear-gradient(rgb(255, 255, 255,1) 25%,rgba(28, 181, 224,1)35%, rgba(0, 8, 81,1) 100%);
+   opacity: 1;
+
+
+    transition: all 1s;
+}
+
+.color4{
+
+
+    background: linear-gradient(rgba(28, 181, 224,1) 20%, rgb(41, 49, 129) 75%);
+    opacity: 1;
+    transition: all 1s;½
+}
+
+.color5{
+
+    background: linear-gradient(rgb(255, 255, 255,1) 25%,rgba(28, 181, 224,1)35%,  rgb(41, 49, 129) 100%);
+
+    opacity: 1;
+
+    transition: all 1s;
+}
+
+
+
+
+
+.color2{
+    animation-name: color_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+a{
+    color: #dff72a;
+}
+
+a:visited{
+    background: linear-gradient(rgb(41, 49, 129) 20%, rgb(13, 58, 75) 75%);
+    color: #ddce80;
+}
+
+.color3{
+     background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+#frontpagebox{
+display: flex;
+    justify-content: space-around;
+
+}
+
+
+#Indhold{
+    background: linear-gradient(rgb(41, 49, 129) 20%, rgb(13, 58, 75) 75%);
+    color: #ddce80;
+}
+
+.flexSub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.diveKnap img{
+    padding-top: 10em;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+}
+
+.centerText{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.seaWeedHidden img{
+    opacity: 0;
+    height: 20vw;
+    width: 15vw;
+    position: absolute;
+
+    top: 120%;
+
+}
+
+.seaWeed img{
+    opacity: 0.5;
+    height: 20vw;
+    width: 15vw;
+    position: absolute;
+
+    top: 175%;
+
+}
+
+.seaPos1{
+   left: 10%;
+}
+.seaPos2{
+   left: 30%;
+}
+
+.seaPos3{
+   left: 40%;
+}
+
+.seaPos4{
+   left: 50%;
+}
+.seaPos5{
+   left: 70%;
+}
+
+.seaPos6{
+   left: 75%;
+}
+
+
+
+
+.FrontpageColor{
+    color: #e66714;
+    text-shadow: 5px 0px rgba(51, 27, 11, 0.87);
+}
+
+
+#Om{
+
+    background: linear-gradient(rgb(41, 49, 129) 20%, rgb(13, 58, 75) 75%);
+    color: #f2c5a8;
+    height: 70vw;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.OmTextBox{
+
+
+    font-size: 1.5em;
+    font-family: 'Comfortaa', cursive;
+}
+
+.OmTextBox p{
+    line-height: 60px;
+    width: 30em;
+
+}
+
+.OmTextBox h1{
+    text-align: center;
+}
+
+.OmImgBox img{
+    width: 38em;
+    height: 38em;
+    border-radius: 1565px;
+
+
+}
+
+.OmHide{
+
+    opacity: 0;
+    transition: all 1s;
+}
+
+.OmShow{
+
+    opacity: 1;
+    transition: all 1s;
+}
+
+.SubPos1{
+    width: 20vw;
+    height: 20vw;
+    padding-top: 0em;
+    transition: all 3s;
+
+}
+.SubPos2{
+
+    animation-name: Sub_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    animation-fill-mode:forwards;
+    transition: 1s all;
+
+}
+
+
+@keyframes Sub_kf {
+
+    0%{
+
+        width: 20vw;
+    height: 20vw;
+    padding-top: 0em;
+    transition: all 3s;
+
+    }
+
+
+
+    100% {
+
+
+        width: 20vw;
+    height: 20vw;
+    padding-top: 35em;
+    transition: all 3s;
+    }
+
+}
+
+
+
+
+
+
+
+
+#frontpage{
+
+
+
+
+
+
+
+}
+
+
+
+
+.boxshadow{
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 5px 42px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.SwimEnd{
+
+    padding-top: 10em;
+    transition: all 1s;
+}
+
+.SwimStart{
+
+    padding-top: 1em;
+    transition: all 1s;
+}
+
+.frontstyle{
+    font-weight: 900;
+    margin-left: 1em;
+    margin-top: 0em;
+    font-size: 4em;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+
+
+    transition: 1s;
+}
+
+.frontText {
+    margin-bottom: 0em;
+    font-size: 5em;
+    font-family: 'Comfortaa', cursive;
+
+
+    transition: 1s;
+    z-index: 3;
+}
+
+
+
+.frontImg img {
+    border-radius: 1500px;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    transition: 1s;
+}
+
+
+
+#Om {
+
+
+
+
+
+}
+
+#Indhold {
+
+
+    background: linear-gradient(#0d3a4b 25%,rgb(4, 16, 34) 50%);
+
+
+
+
+
+
+}
+
+
+
+#OmWrapper{
+
+    transition: 1s;
+
+}
+
+
+#OmIntro{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.5em;
+
+    width: 20vw;
+    height: 20vw;
+
+
+    transition: 1s;
+    z-index: 3;
+
+}
+
+#OmText{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.4em;
+
+    width: 20vw;
+    height: 20vw;
+
+
+    transition: 1s;
+    z-index: 3;
+
+}
+
+#OmGallery{
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+
+    transition: 1s;
+    z-index: 2;
+
+}
+
+
+
+
+/* section1 */
+
+.OmIntroPos1{
+   animation-name: OmIntroReturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmTextPos1{
+    animation-name: OmTextReturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmGalleryPos1{
+    animation-name: OmGalleryreturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+/* section2 */
+
+.OmGalleryPos2{
+
+    animation-name: OmGalleryPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmIntroPos2{
+   animation-name: OmIntroPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmTextPos2{
+    animation-name: OmTextPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+
+
+
+#OmWrapper{
+
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    padding-left: 22em;
+
+
+}
+
+body{
+    background-color: white;
+}
+
+.hiddenC2{
+    transition: 1s;
+    margin-top: 2em;
+    position: absolute;
+    background-color: white;
+
+
+
+}
+
+.testBox{
+
+    background-color: aqua;
+    height: 10em;
+    width: 20em;
+}
+
+
+#HOm {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#POm{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding-left: 6.5em;
+  text-align: left;
+    width: 20em;
+
+}
+
+#ImgOm img{
+    text-align: left;
+
+    width: 30em;
+    height: 30em;
+}
+
+.GalleryOm1{
+    background-image: url(profilepic.jpg);
+    background-position:-5px;
+    background-size: 21.4em;
+}
+
+.GalleryOm2{
+    background-image: url(17884452_1466383883383017_2124854434259354637_n.jpg);
+    background-position:-5px;
+    background-size: 21.4em;
+}
+
+
+#Responsive{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.left{
+    width: 35vw;
+    padding-left: 30%;
+
+    font-size: 1.5em;
+   font-family: 'Comfortaa', cursive;
+
+
+    transition: 1s;
+    z-index: 3;
+}
+
+.left2{
+    width: 35vw;
+    padding-left: 30%;
+
+    font-size: 1.5em;
+    font-family: 'Comfortaa', cursive;
+
+
+    transition: 1s;
+    z-index: 3;
+}
+
+
+.left img {
+  box-shadow: 0 4px 30px 0 rgba(219, 189, 63, 0.41), 0 1px 40px 0 rgba(219, 189, 63, 0.41);
+
+    height: 35vw;
+
+    transition: 1s;
+}
+
+.left2 img {
+   box-shadow: 0 4px 30px 0 rgba(219, 189, 63, 0.41), 0 1px 40px 0 rgba(219, 189, 63, 0.41);
+
+    height: 35vw;
+    width: 35vw;
+
+    transition: 1s;
+}
+
+.left iframe{
+   box-shadow: 0 4px 30px 0 rgba(219, 189, 63, 0.41), 0 1px 40px 0 rgba(219, 189, 63, 0.41);
+
+
+
+    transition: 1s;
+}
+
+
+.indholdWrapper{
+
+
+}
